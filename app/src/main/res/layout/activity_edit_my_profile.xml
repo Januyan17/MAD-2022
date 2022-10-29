@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BE4A6"
+    android:orientation="vertical"
+    tools:context=".EditMyProfile">
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="350dp"-->
+<!--        android:background="@drawable/edit"/>-->
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Your Details Here"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextPhonenumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextAge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/uibutton"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/changeProfile"
+        android:layout_width="139dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        app:cornerRadius="15dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/teal_700"
+        android:text="Change" />
+    <Button
+        android:id="@+id/editmypicture"
+        android:layout_width="1dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#5DB5AB"
+        android:text="Edit  profile picture" />
+</LinearLayout>

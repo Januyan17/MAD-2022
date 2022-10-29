@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Appointment Booking</string>
+    <string name="Address">Address </string>
+    <string name="phonenum">Phone </string>
+    <string name="cancel">Cancel </string>
+    <string name="Time1">8.30 AM - 10.30 AM</string>
+    <string name="Time2">10.30 AM-12.30 PM </string>
+    <string name="Time3">3.30 PM - 4.30 PM </string>
+    <string name="Time4">4.30 PM - 6.30 PM </string>
+    <string name="bookingsucc">BOOKING SUCESSFULL </string>
+    <string name="textdea">Your Appoinment Has Been Booked Succesfully More Deatils +94 0779299587 </string>
+    <string name="p_age">Patient Age</string>
+    <string name="p_address">Patient Address</string>
+    <string name="p_name">Patient Name</string>
+    <string name="age">Age</string>
+    <string name="caln">Pick From Datepicker</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="editdocDea">Edit Appoinment Details</string>
+    <string name="editbtn">Edit Details</string>
+    <string name="delettbtn">Cancel Appoinment</string>
+    <string name="docbook">Book Your Appoinment </string>
+    <string name="bookbtn">Book An Appoinment </string>
+    <string name="imagesInput">images</string>
+    <string name="username">Name</string>
+    <string name="doc_name">Doctor name</string>
+</resources>

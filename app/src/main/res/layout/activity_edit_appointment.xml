@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:background="#5CABFBD6"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/addDocTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:text="Update Appointment"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addDocTitle">
+
+        <TextView
+            android:id="@+id/docTypeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginBottom="10dp"
+            android:text="@string/p_name"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="patient name"
+            android:paddingLeft="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/doc_name"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docNameEdit2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Doctor name"
+            android:paddingLeft="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/date"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/docAuthEdit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="DD/MM/YYYY"
+            android:paddingLeft="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/time"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docAuthEdit3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="7.30pm"
+            android:paddingLeft="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText233"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Address"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docAuthEdit333"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Colombo"
+            android:paddingLeft="12dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginBottom="7dp" />
+
+        <TextView
+            android:id="@+id/docAuthText3dd3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="Phone no"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docAuthEdit33dd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/edittext_bg"
+            android:hint="077XXXXXXXX"
+            android:paddingLeft="12dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/edittext_bg"
+            android:backgroundTint="@color/teal_700"
+            android:text="Update"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-40dp"
+            android:background="@drawable/edittext_bg"
+            android:backgroundTint="@color/teal_700"
+            android:text="delete"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5CABFBD6"
+    tools:context=".UploadImage">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pharmedic"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+    <Button
+        android:id="@+id/change_profile_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Change Your Profile"
+        android:textSize="16sp"
+        app:cornerRadius="15dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/change_profile_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="close"
+            app:cornerRadius="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textStyle="bold"
+            android:layout_marginRight="6dp"/>
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save"
+            app:cornerRadius="20dp"
+            android:backgroundTint="@color/teal_700"
+            android:textStyle="bold"
+            android:layout_marginRight="6dp"/>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:layout_below="@+id/btnSave"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/pharmedic"
+        tools:ignore="NotSibling" />
+
+
+</RelativeLayout>

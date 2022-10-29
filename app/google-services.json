@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "486525923783",
+    "project_id": "fir-demo-edf31",
+    "storage_bucket": "fir-demo-edf31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486525923783:android:1e7779307b74cb67e829e2",
+        "android_client_info": {
+          "package_name": "com.example.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486525923783-rsi3g964nva0taea7e314mmll23cdvjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKbiBnAtQoSO9TgOxW6JFP8pmB4W7Y4Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486525923783-rsi3g964nva0taea7e314mmll23cdvjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486525923783:android:f5e42b7e1d01597ce829e2",
+        "android_client_info": {
+          "package_name": "com.hospital.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486525923783-rsi3g964nva0taea7e314mmll23cdvjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKbiBnAtQoSO9TgOxW6JFP8pmB4W7Y4Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486525923783-rsi3g964nva0taea7e314mmll23cdvjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

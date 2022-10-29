@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SigninSignup"
+    android:background="#5CABFBD6"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/medilogo"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="38dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome to Medi Clinic"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <Button
+        android:id="@+id/navigatesignin"
+        android:layout_width="333dp"
+        android:layout_height="55dp"
+        android:text="Sign In"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="#000201"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:backgroundTint="@color/teal_700"
+        android:background="@drawable/button"
+        app:cornerRadius="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/navigatesignup"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
+        android:text="Sign Up"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
+        app:layout_constraintStart_toStartOf="@+id/lottieAnimationView"
+        app:layout_constraintTop_toBottomOf="@+id/navigatesignin"
+        android:backgroundTint="@color/teal_700"
+        android:background="@drawable/button"
+        app:cornerRadius="12dp"
+        />
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:src="@drawable/pharmedic"/>-->
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Signing in , Accept our Terms and  Conditions"
+
+        android:gravity="center"
+
+        android:textStyle="bold"/>
+</LinearLayout>
