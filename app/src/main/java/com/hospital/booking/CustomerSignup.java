@@ -41,6 +41,9 @@ public class CustomerSignup extends AppCompatActivity implements View.OnClickLis
 
 
     private FirebaseAuth mAuth;
+    private FirebaseDatabase database;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +51,8 @@ public class CustomerSignup extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_customer_signup);
 
         mAuth = FirebaseAuth.getInstance();
+        database=FirebaseDatabase.getInstance();
+
 
 
         registerUser = (Button) findViewById(R.id.registerUser);
@@ -158,10 +163,10 @@ public class CustomerSignup extends AppCompatActivity implements View.OnClickLis
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
 
-                            com.hospital.booking.User user = new com.hospital.booking.User(username, age, email, phonenumber);
+                            User user = new User(username, age, email, phonenumber);
 
-                            FirebaseDatabase.getInstance().getReference("Users")
-                                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(user)
+                            FirebaseDatabase.getInstance().getReference("SLIIT")
+                                    .child(email).child(username).setValue(user)
                                     .addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
